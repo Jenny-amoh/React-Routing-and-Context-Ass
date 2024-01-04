@@ -7,7 +7,7 @@ function Card(props) {
     return (
         <div className="service-card">
             <h1>{item.name}</h1>
-            <Link state={item} to={"/services/"+item.id} ><button>more</button></Link>
+            <Link state={item} to={"/services/"+item.id} ><button className="btn">More Info</button></Link>
         </div>
         )
 }

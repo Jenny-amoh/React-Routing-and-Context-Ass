@@ -10,6 +10,11 @@ function Service() {
 
     return (
         <div>
+            <div>
+                <h2 className="serviceHeader">Welcome to our Tech Service Solutions</h2>
+                <p className="serviceText"> With our expertise and passion for technology, we are committed 
+                    to helping your business thrive in today's competitive landscape.</p>
+            </div>
             <div className="servicePage">
                 <div>
                     <p>
@@ -21,12 +26,11 @@ function Service() {
                     <h2>
                         {item.name}
                     </h2>
-                    <p>
-                        {item.description}
+                    <p className="serviceTitle">
+                        {item.title}
                     </p>
-
-                    <p>
-                        #{item.id}
+                    <p className="serviceDescription">
+                        {item.description}
                     </p>
                 </div>
 
@@ -34,7 +38,7 @@ function Service() {
 
             </div>
             <div>
-                <h3>Other Services</h3>
+                <h3 className="title">Explore Other Services</h3>
                 <div className="service-container">
                     {
                         servicesData.map((service, index) => {

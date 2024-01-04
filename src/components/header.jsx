@@ -14,13 +14,13 @@ function Header() {
         <div className="header">
 
             <Link to={'/'} className="logo">M.J DESIGNS</Link>
-            <Link to={'/'}>HOME</Link>
-            <Link to={'/services'}>SERVICES</Link>
-            <div>
-                <select onChange={handleChange} >
+            <Link to={'/'} className="link">HOME</Link>
+            <Link to={'/services'} className="link">SERVICES</Link>
+            <div className='toggle'>
+                <select onChange={handleChange} className='toggle' >
                     <option >light</option>
                     <option >dark</option>
-                    <option >chaos</option>
+                    <option >chaos😅</option>
                 </select>
             </div>
 

@@ -5,7 +5,11 @@ function Services() {
 
     return (
         <div>
-            services 
+            <div>
+                <h2 className="servicesHeader">Explore Our Services</h2>
+                <p className="servicesText">We are a leading provider of comprehensive tech solutions designed to empower businesses in the digital age. 
+                    Our team of experts specializes in delivering exceptional services across these various domains,</p>
+            </div>
             <div className="service-container">
                 {
                     servicesData.map((service, index) => {

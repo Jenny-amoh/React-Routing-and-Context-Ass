@@ -10,7 +10,7 @@ min-height: 100vh;
 .light .header{
 height: 3rem;
 display: flex;
-background-color: #ccc;
+background-color: #e8e8e8;
 align-items: center;
 justify-content: space-around;
 padding: 0 9rem;
@@ -20,19 +20,29 @@ padding: 0 9rem;
   font-size: larger;
 }
 .light .routes{
-  min-height: 70vh;
+  min-height: 30vh;
 }
 .light .footerText{
   text-align: center;
   font-size: larger;
+  margin-top: 3rem;
+  border-top: #3a3a3a 1px solid;
+  padding-top: 2rem;
+}
+.light .mail{
+  color: rgb(8, 138, 140);
 }
 .light .footerContent{
   display: flex;
   justify-content: space-between;
   margin: 0 12rem;
 }
+.light .footerTexts{
+  font-size: larger;
+  color: rgb(8, 138, 140);
+}
 .light .service-container{
-  padding: 2rem;
+  padding: 1rem 1rem 2rem 2rem;
    display: grid;
    grid-template-columns: auto auto auto;
 }
@@ -45,7 +55,63 @@ padding: 0 9rem;
   width: auto;
   height: 500px;
 }
+.light .btn{
+  padding: 1rem 2rem;
+  color: rgb(8, 138, 140);
+  border-radius: 5px;
+  border-color: rgb(8, 138, 140);
+  background-color: #ffff;
+  font-size: medium;
+}
+.light .service-card{
+  margin-top: 3rem;
+}
+.light .title{
+  font-size: x-large;
+  margin: 3rem 0 0 2rem;
+}
+.light .homePage{
+  margin: 10rem 5rem 0 10rem;
+}
+.light .homeHeader{
+  font-size: 50px;
+  margin-bottom: 5rem;
+  color: rgb(8, 138, 140);
+}
+.light .homeText{
+  font-size: 20px;
+  word-spacing: 2px;
 
+}
+.light .servicesHeader, .serviceHeader{
+  font-size: 30px;
+  margin: 5rem 0 0 2rem;
+  color: rgb(8, 138, 140);
+}
+.light .servicesText, .serviceText{
+  font-size: 20px;
+  word-spacing: 2px;
+  margin-left: 1rem;
+  padding: 1rem;
+}
+.light .link{
+  text-decoration: none;
+  color: rgb(8, 138, 140);
+}
+
+.light .toggle{
+  padding: 4px;
+  color: rgb(8, 138, 140);
+
+}
+.light .serviceTitle{
+  font-size: larger;
+  color: rgb(8, 138, 140);
+}
+.light .serviceDescription{
+  font-size: large;
+  margin: 1rem 4rem 0 0;
+}
 
 /*  -------   Dark theme  -------------------------------- */
 
@@ -53,7 +119,7 @@ padding: 0 9rem;
   color:white;
   background-color: #3a3a3a;
 }
-
+  
 .dark .header{
   height: 3rem;
   display: flex;
@@ -67,19 +133,29 @@ padding: 0 9rem;
     font-size: larger;
   }
   .dark .routes{
-    min-height: 70vh;
+    min-height: 30vh;
   }
   .dark .footerText{
     text-align: center;
     font-size: larger;
+    margin-top: 3rem;
+    border-top: #dadada 1px solid;
+    padding-top: 2rem;
+  }
+  .dark .mail{
+    color: rgb(8, 138, 140);
   }
   .dark .footerContent{
     display: flex;
     justify-content: space-between;
     margin: 0 12rem;
   }
+  .dark .footerTexts{
+    font-size: larger;
+    color: rgb(8, 138, 140);
+  }
   .dark .service-container{
-    padding: 2rem;
+    padding: 1rem 1rem 2rem 2rem;
      display: grid;
      grid-template-columns: auto auto auto;
   }
@@ -92,12 +168,60 @@ padding: 0 9rem;
     width: auto;
     height: 500px;
   }
-
-  .dark link, .dark a{
-    color:rgb(80, 92, 222);
+  .dark .btn{
+    padding: 1rem 2rem;
+    color: rgb(8, 138, 140);
+    border-radius: 5px;
+    border-color: rgb(8, 138, 140);
+    background-color: #ffff;
+    font-size: medium;
   }
-
-  .dark button{
-    background-color: black;
-    color:white;
+  .dark .service-card{
+    margin-top: 3rem;
+  }
+  .dark .title{
+    font-size: x-large;
+    margin: 3rem 0 0 2rem;
+  }
+  .dark .homePage{
+    margin: 10rem 5rem 0 10rem;
+  }
+  .dark .homeHeader{
+    font-size: 50px;
+    margin-bottom: 5rem;
+    color: rgb(8, 138, 140);
+  }
+  .dark .homeText{
+    font-size: 20px;
+    word-spacing: 2px;
+  
+  }
+  .dark .servicesHeader, .serviceHeader{
+    font-size: 30px;
+    margin: 5rem 0 0 2rem;
+    color: rgb(8, 138, 140);
+  }
+  .dark .servicesText, .serviceText{
+    font-size: 20px;
+    word-spacing: 2px;
+    margin-left: 1rem;
+    padding: 1rem;
+  }
+  .dark .link{
+    text-decoration: none;
+    color: rgb(8, 138, 140);
+  }
+  
+  .dark .toggle{
+    padding: 4px;
+    color: rgb(8, 138, 140);
+  
+  }
+  .dark .serviceTitle{
+    font-size: larger;
+    color: rgb(8, 138, 140);
+  }
+  .dark .serviceDescription{
+    font-size: large;
+    margin: 1rem 4rem 0 0;
   }
