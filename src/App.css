@@ -1,0 +1,103 @@
+body{
+  padding: 0;
+  margin: 0;
+
+}
+.dark,.light{
+min-height: 100vh;
+}
+
+.light .header{
+height: 3rem;
+display: flex;
+background-color: #ccc;
+align-items: center;
+justify-content: space-around;
+padding: 0 9rem;
+}
+.light .logo{
+  color: rgb(190, 68, 52);
+  font-size: larger;
+}
+.light .routes{
+  min-height: 70vh;
+}
+.light .footerText{
+  text-align: center;
+  font-size: larger;
+}
+.light .footerContent{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 12rem;
+}
+.light .service-container{
+  padding: 2rem;
+   display: grid;
+   grid-template-columns: auto auto auto;
+}
+.light .servicePage{
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+.light .pic{
+  width: auto;
+  height: 500px;
+}
+
+
+/*  -------   Dark theme  -------------------------------- */
+
+.dark{
+  color:white;
+  background-color: #3a3a3a;
+}
+
+.dark .header{
+  height: 3rem;
+  display: flex;
+  background-color: #1d1d1d;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 9rem;
+  }
+  .dark .logo{
+    color: rgb(128, 47, 36);
+    font-size: larger;
+  }
+  .dark .routes{
+    min-height: 70vh;
+  }
+  .dark .footerText{
+    text-align: center;
+    font-size: larger;
+  }
+  .dark .footerContent{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 12rem;
+  }
+  .dark .service-container{
+    padding: 2rem;
+     display: grid;
+     grid-template-columns: auto auto auto;
+  }
+  .dark .servicePage{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+  }
+  .dark .pic{
+    width: auto;
+    height: 500px;
+  }
+
+  .dark link, .dark a{
+    color:rgb(80, 92, 222);
+  }
+
+  .dark button{
+    background-color: black;
+    color:white;
+  }
